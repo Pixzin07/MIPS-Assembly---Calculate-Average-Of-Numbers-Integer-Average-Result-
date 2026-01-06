@@ -1,10 +1,10 @@
 PYTHON VERSION SO YOU CAN UNDERSTAND MIPS ASSEMBLY EASIER!! 
 
-def main():
+    def main():
     totals = 0
     count = 0
     control = True
-
+    
     while control:
         value = int(input("Please enter a number with range 0-100 (-1 to stop): "))
 
@@ -23,10 +23,7 @@ def main():
         average = 0
 
     print("Average:", average)
-
-main()
-
-
+    main()
 
 
 
